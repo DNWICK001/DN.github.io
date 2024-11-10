@@ -1,0 +1,118 @@
+body {
+    background-color:black;
+    color: white;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-image:url("IMG/header.jpg");
+	background-size:cover;
+    font-family: Dubai;
+    padding: 1em 0;
+    text-align: center;
+}
+
+.neon {
+    text-align: center;
+    font-size: 40px;
+    color: #fff;
+    transition: text-shadow 0.5s ease-in-out;
+}
+
+.neon:hover {
+    text-shadow: 
+    0 0 10px #fff,
+    0 0 20px #fff,
+    0 0 30px #fff,
+    0 0 40px #FC8200,
+    0 0 50px #FC8200,
+    0 0 60px #FC8200,
+    0 0 70px #FC8200,
+    0 0 100px #FC8200;
+}
+
+.image {
+    opacity: 0.25;
+    transition: opacity 1s ease-in-out;
+    margin: 0;
+}
+
+.image:hover {
+    opacity: 1;
+    transition: opacity 1s ease-in-out;
+}
+
+.plate {
+    background-color: #373737;
+    border-radius: 14px;
+    width: 80%;
+    box-shadow: 3px 3px 20px #373737;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: left; /* Ensure text inside the plate is left-aligned */
+}
+
+.plate h1 {
+    font-family: Dubai;
+    font-size: 30px;
+    text-shadow: 3px 3px 14px black;
+    transition: font-size 0.3s ease-in-out;
+}
+
+.plate h1:hover {
+    font-size: 50px;
+}
+
+.tabs {
+    background-color: #5F5F5F;
+    text-align: center;
+}
+
+.tabs a {
+    color: white;
+    text-decoration: none;
+    font-family: Segoe UI Variable Small;
+    font-size: 20px;
+    padding-right: 12px;
+    background-color: #5F5F5F;
+    transition: text-shadow 0.3s ease-in-out;
+}
+
+.tabs a:hover {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding-right: 12px;
+    background-color: #5F5F5F;
+    text-shadow: 
+    0 0 10px #fff,
+    0 0 20px #fff,
+    0 0 30px #fff,
+    0 0 40px #FC1313,
+    0 0 50px #FC1313,
+    0 0 60px #FC1313,
+    0 0 70px #FC1313,
+    0 0 100px #FC1313;
+}
+
+footer {
+    background-color: #373737;
+    font-family: Dubai;
+    text-align: center;
+    padding: 0.1em 0;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+.hello{
+	width:10%;
+	height:auto;
+	transition: width 0.3s ease-in-out
+}
+.hello:hover{
+	width:20%;
+	height:auto;
+}
